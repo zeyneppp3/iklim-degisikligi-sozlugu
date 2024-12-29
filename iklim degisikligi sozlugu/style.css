@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Beyaz arka plan */
+    color: #333333; /* Metin rengi */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #2c6e1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Sayfa genişliğine orantılı %80 */
+    max-width: 600px; /* Maksimum genişlik 600px */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+h1 {
+    color: white; /* İklim Değişikliği Sözlüğü yazısını beyaz yapar */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Arama kutusu stil ayarları */
+input[type="text"] {
+    background-color: white; /* Orman yeşili arka plan */
+    color: black; /* Yazı rengi beyaz */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #1d6f1d; /* Yeşil sınır */
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+/* Arama kutusunun üzerine gelindiğinde değişim (hover efekti) */
+input[type="text"]:hover {
+    border-color: #006400; /* Koyu yeşil sınır rengi */
+    background-color: white /* Hover efektiyle daha koyu orman yeşili */
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+body {
+    background-image: url('arka_plan.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
